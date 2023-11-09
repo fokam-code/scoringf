@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Tivo is a HTML landing page template built with Bootstrap to help you crate engaging presentations for SaaS apps and convert visitors into users.">
+    <meta name="author" content="Inovatik">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+	<meta property="og:site_name" content="" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Welcome Page</title>
+    
+    <!-- Styles -->
+    <link href="{%static 'https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700&display=swap&subset=latin-ext'%}" rel="stylesheet">
+    <link href="{%static 'css/bootstrap.css'%}" rel="stylesheet">
+    <link href="{%static 'css/fontawesome-all.css'%}" rel="stylesheet">
+    <link href="{%static 'css/swiper.css'%}" rel="stylesheet">
+	<link href="{% static 'css/magnific-popup.css'%}" rel="stylesheet">
+    <link href="{%static 'css/styles.css'%}" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="{% static 'images/favicon.png'%}">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+    
+    <!-- Preloader -->
+	{% comment %} <div class="spinner-wrapper">
+        <div class="spinner">
+            <div class="bounce1"></div>
+            <div class="bounce2"></div>
+            <div class="bounce3"></div>
+        </div>
+    </div> {% endcomment %}
+    <!-- end of preloader -->
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+        <div class="container">
+
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Tivo</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" ><img src="{% static 'images/images.jpg'%}" alt="alternative"></a> 
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <!-- end of mobile menu toggle button -->
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="{% url 'indexc'%}">HOME <span class="sr-only"></span></a>
+                    </li>
+                   
+
+                    <!-- Dropdown Menu -->          
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" href="{% url 'indexc'%}" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">OPERATIONS</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'article_list'  %}"><span class="item-text">DATA ANALYSIS</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            {% comment %} <a class="dropdown-item" href="{% url 'data'  %}"><span class="item-text">DATA ANALYSIS</span></a> {% endcomment %}
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="{% url 'article_create'  %}"><span class="item-text"> CREDIT AUTOMATION</span></a>
+                        </div>
+                    </li>
+                    <!-- end of dropdown menu -->
+
+                    
+                </ul>
+                <span class="nav-item">
+                    <a class="btn-outline-sm" href="{% url 'login'  %}">LOG OUT</a>
+                </span>
+            </div>
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+
+    <!-- Header -->
+    <header id="header" class="ex-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1> Welcome Let's Start</h1>
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of ex-header -->
+    <!-- end of header -->
+
+
+    <!-- Breadcrumbs -->
+    <div class="ex-basic-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumbs">
+                        
+                    </div> <!-- end of breadcrumbs -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of breadcrumbs -->
+
+
+    <!-- Privacy Content -->
+    <div class="ex-basic-2">
+        <div class="col-lg-3">
+            <div class="image-container-large">
+                <img class="img-fluid" src="{% static 'images/bank.jpeg'%}" alt="alternative">
+            </div> <!-- end of image-container-large -->
+        </div>
+    </div>
+<hr>
+<hr>
+
+
+                    
+                </div>
+            </div>
+        </div>
+                       
+                           
+                                            <!-- Card -->
+                                            
+                        
+                                   
+                            <div class="cards-2">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="above-heading">DESCRIPTION</div>
+                                            <h2 class="h2-heading">DATA ANALYSIS </h2>
+                                        </div> <!-- end of col -->
+                                    </div> <!-- end of row -->
+                                </div>
+                        
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-2.png'%}" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">IMPORT DATA </h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'load'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-2.png'%}" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">SELECT FEATURES</h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'selectfeature'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-1.png'%}" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">MODEL INTERPRETABILITY</h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'login'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-3.png'%}" alt="alternative">
+                                                 </div>
+                                                 <div class="card-body">
+                                                     <h4 class="card-title">ANALYSE YOUR DATA</h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'login'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                            <!-- Card -->
+                                            
+                        
+                                        </div> <!-- end of col -->
+                                    </div> <!-- end of row -->
+                                </div> <!-- end of container -->
+                            </div> <!-- end of cards-1 -->
+                            <!-- end of description -->
+<hr>
+                            <div class="cards-2">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="above-heading">DESCRIPTION</div>
+                                            <h2 class="h2-heading">SCORING AUTOMATION </h2>
+                                        </div> <!-- end of col -->
+                                    </div> <!-- end of row -->
+                                </div>               
+                                    <div class="row">
+                                        <div class="col-lg-3">
+                                            <!-- Card -->
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-2.png'%}" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">BUILD MODEL </h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'login'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-2.png'%}" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">CREDIT SCORING</h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'login'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                        
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-1.png'%}" alt="alternative">
+                                                </div>
+                                                <div class="card-body">
+                                                    <h4 class="card-title">EXTRACTION OF GRADUAL ITEMSET </h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'login'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                        <div class="col-lg-3">
+                                            <div class="card">
+                                                <div class="card-image">
+                                                    <img class="img-fluid" src="{% static 'images/description-3.png'%}" alt="alternative">
+                                                 </div>
+                                                 <div class="card-body">
+                                                     <h4 class="card-title">ANALYSE YOUR DATA</h4>
+                                                    <p>description</p>
+                                                    <span class="nav-item">
+                                                        <a class="btn-outline-sm" href="{% url 'login'  %}">Plus</a>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            
+                                            <!-- Card -->
+                                            
+                        
+                                        </div> <!-- end of col -->
+                                    </div> <!-- end of row -->
+                                </div> <!-- end of container -->
+                            </div> <!-- end of cards-1 -->
+                            <!-- end of description -->
+                        
+                        
+                           
+                             
+                        
+                        
+                           
+                
+                </div> <!-- end of col-->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of ex-basic-2 -->
+    <!-- end of privacy content -->
+
+
+   
+
+   
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © 2023 <a href="https://inovatik.com"></a><br>
+                         <a href="https://themewagon.com" target="_blank"></a>
+                    </p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+    	
+    <!-- Scripts -->
+    <script src="{%static 'js/scripts.js'%}"></script> <!-- Custom scripts -->
+    <script src="{% static 'js/jquery.min.js'%}"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="{% static 'js/popper.min.js'%}"></script> <!-- Popper tooltip library for Bootstrap -->
+    <script src="{% static 'js/bootstrap.min.js'%}"></script> <!-- Bootstrap framework -->
+    <script src="{% static 'js/jquery.easing.min.js'%}"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="{% static 'js/swiper.min.js'%}"></script> <!-- Swiper for image and text sliders -->
+    <script src="{% static 'js/jquery.magnific-popup.js'%}"></script> <!-- Magnific Popup for lightboxes -->
+    <script src="{% static 'js/validator.min.js '%}"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+    <script src="{% static 'js/sb-admin-2.js '%}"></script>
+    <script src="{% static 'js/sb-admin-2.min.js '%}"></script>
+    <script src="{% static 'js/jquery.easing.min.js '%}"></script>
+</body>
+</html>
